@@ -6,7 +6,7 @@ from stock_LSTM_CONV1D import history3
 # data to plot
 n_groups = 3
 train_acc = [history.history['acc'][-1],history2.history['acc'][-1],history3.history['acc'][-1]]
-test_acc = [history.history['val_acc'][-1],history2.history['val_acc'][-2],history3.history['val_acc'][-2]]
+test_acc = [history.history['val_acc'][-1],history2.history['val_acc'][-1],history3.history['val_acc'][-1]]
 
 # create plot
 fig, ax = plt.subplots()
